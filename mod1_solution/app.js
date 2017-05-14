@@ -1,11 +1,11 @@
 (function (){
   'use strict';
 
-  angular.module('lunchCheck', [])
-  .controller('lunchCheckController', lunchCheckController);
+  angular.module('LunchCheck', [])
+  .controller('LunchCheckController', LunchCheckController);
 
-lunchCheckController.$inject = ['$scope'];
-function lunchCheckController($scope){
+LunchCheckController.$inject = ['$scope'];
+function LunchCheckController($scope){
     $scope.name = "Hulk";
 }
 
